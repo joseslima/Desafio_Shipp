@@ -9,9 +9,9 @@ O sistema de indice remissivo deve ter como entrada um arquivo "palavras.txt". A
 Exemplo:
 "Tema genérico é aquele que descreverás os fatos de uma maneira geral, sem focalizar e dar maior importância a A ou B."
 
-e -> 2
-a -> 2
-tema -> 1
+e -> 2 \n
+a -> 2 \n
+tema -> 1 \n
 generico -> 1
 ...
 
