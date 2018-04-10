@@ -37,6 +37,7 @@ Os programas serão avaliados levando em conta os seguintes critérios:
 
 | Critério|
 |---|
-| Legibilidade do Código | 
+| Legibilidade do código | 
 | Resolução do problema| 
-| Tratamento de Erros| 
+| Tratamento de erros| 
+| Tempo de execução| 
