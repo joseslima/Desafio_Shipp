@@ -4,7 +4,7 @@ A avaliação e composta por dois testes simples, esses serão utilizados para a
 
 # Indice remissivo
 
-O sistema de indice remissivo deve ter como entrada um arquivo "palavras.txt". A saída deve ser o numero de ocorrencias da palavra dentro do arquivo.
+O sistema de indice remissivo deve ter como entrada um arquivo "palavras.txt". A saída deve ser o numero de ocorrencias de cada palavra dentro do arquivo.
 
 Exemplo:
 "Tema genérico é aquele que descreverás os fatos de uma maneira geral, sem focalizar e dar maior importância a A ou B."
