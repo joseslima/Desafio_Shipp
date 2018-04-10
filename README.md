@@ -10,7 +10,7 @@ Exemplo:
 "Tema genérico é aquele que descreverás os fatos de uma maneira geral, sem focalizar e dar maior importância a A ou B."
 
 
-| Palavra| quantidade
+| Palavra| Quantidade
 |---| ---|
 | e | 2|
 | a| 2|
