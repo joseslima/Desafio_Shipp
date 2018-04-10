@@ -9,11 +9,14 @@ O sistema de indice remissivo deve ter como entrada um arquivo "palavras.txt". A
 Exemplo:
 "Tema genérico é aquele que descreverás os fatos de uma maneira geral, sem focalizar e dar maior importância a A ou B."
 
-e -> 2 \n
-a -> 2 \n
-tema -> 1 \n
-generico -> 1
-...
+
+| Palavra| quantidade
+|---| ---|
+| e | 2|
+| a| 2|
+| tema | 1|
+| generico | 1|
+| ... | ...|
 
 # Validação de dados cadastrais de cliente
 
@@ -32,7 +35,7 @@ A saida deve ser uma lista com os clientes em desacordo com as regras.
 
 Os programas serão avaliados levando em conta os seguintes critérios:
 
-| Critério
+| Critério|
 |---|
 | Legibilidade do Código | 
 | Resolução do problema| 
