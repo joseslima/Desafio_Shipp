@@ -1,6 +1,6 @@
 # Teste para para estagio na Shipp
 
-A avaliação e composta por dois testes simples, esses serão utilizados para avaliar a capacidade da pessoa de entender e resolver problemas.
+A avaliação e composta por dois testes simples, esses serão utilizados para avaliar a capacidade da pessoa de entender e resolver problemas. Os desafios descritos abaixo devem ser feitos em PYTHON exceto o desafio da PISCINA que sera feito em javascript, css e html.
 
 # Indice remissivo
 
@@ -30,7 +30,11 @@ Exemplo:
   
 A entrada do sistema e uma lista "clientes.txt".
 A saida deve ser uma lista com os clientes em desacordo com as regras.
-  
+
+## Piscina de Coisas Comportamentais
+
+Verificar a pasta desafio_front_shipp no repositorio, dentro dela esta contido o desafio.
+
 ## Avaliação
 
 Os programas serão avaliados levando em conta os seguintes critérios:
@@ -44,4 +48,5 @@ Os programas serão avaliados levando em conta os seguintes critérios:
 
 ## Entregas 
 
-Os codigos devem ser enviados para o email: pedro.lecchi@shipp.delivery, com o assunto DESAFIO SHIPP
+Os codigos devem ser enviados para o email: pedro.lecchi@shipp.delivery, com o assunto DESAFIO SHIPP.
+
