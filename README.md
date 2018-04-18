@@ -34,7 +34,7 @@ Exemplo:
   - Verificar se existem celulares duplicados na lista de cadastro.
   - Verificar se existem emails duplicados na lista de cadastro.
   
-A entrada do sistema é uma lista "clientes.txt".
+A entrada do sistema é uma lista "clientes.txt" com os campos separados por ponto e virgula.
 A saida deve ser uma lista com os clientes em desacordo com as regras.
 
 ## Piscina de Coisas Comportamentais
