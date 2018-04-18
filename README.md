@@ -1,13 +1,13 @@
-# Teste para para estagio na Shipp
+# Teste para para estágio na Shipp
 
-A avaliação e composta por dois testes simples, esses serão utilizados para avaliar a capacidade da pessoa de entender e resolver problemas. Os desafios "Indice remissivo" e "Validação de dados cadastrais" devem ser feitos em PYTHON e o desafio da "Piscina de Coisas Comportamentais" deve ser feito em javascript, css e html.
+A avaliação é composta por três testes simples que serão utilizados para avaliar a capacidade da pessoa de entender e resolver problemas. Os desafios "Índice remissivo" e "Validação de dados cadastrais" devem ser feitos em PYTHON e o desafio da "Piscina de Coisas Comportamentais" deve ser feito em javascript, css e html.
 
-# Indice remissivo
+# Índice remissivo
 
-O sistema de indice remissivo deve ter como entrada um arquivo "palavras.txt". A saída deve ser o numero de ocorrencias de cada palavra dentro do arquivo.
+O sistema de índice remissivo deve ter como entrada um arquivo "palavras.txt" e como saída o número de ocorrências de cada palavra dentro do arquivo.
 
 Exemplo:
-"Tema genérico é aquele que descreverás os fatos de uma maneira geral, sem focalizar e dar maior importância a A ou B."
+"Tema genérico é aquele que descreverá os fatos de uma maneira geral, sem focalizar e dar maior importância a A ou B."
 
 
 | Palavra| Quantidade
@@ -23,17 +23,17 @@ Exemplo:
 1. Dado uma lista de clientes o sistema deve validar se os dados do cliente são validos.
 2. Os dados que devem ser verificados são :
 
-  - CPF (Verificar se o CPF do usuario e valido, implementar um validador de cpf).
-  - Numero do Cartão (Verificar se o numero do cartão e valido, o sistema so aceita VISA e MASTER).
-  - Verificar se existe celulares duplicados na lista de cadastro.
-  - Verificar se existe email duplicados na lista de cadastro.
+  - CPF (Verificar se o CPF do usuário e válido, implementar um validador de cpf).
+  - Número do Cartão (Verificar se o número do cartão é válido, o sistema só aceita VISA, MASTER e ELO).
+  - Verificar se existem celulares duplicados na lista de cadastro.
+  - Verificar se existem emails duplicados na lista de cadastro.
   
-A entrada do sistema e uma lista "clientes.txt".
+A entrada do sistema é uma lista "clientes.txt".
 A saida deve ser uma lista com os clientes em desacordo com as regras.
 
 ## Piscina de Coisas Comportamentais
 
-Verificar a pasta desafio_front_shipp no repositorio, dentro dela esta contido o desafio.
+Verificar a pasta desafio_front_shipp no repositório, dentro dela esta contido o desafio.
 
 ## Avaliação
 
@@ -48,5 +48,5 @@ Os programas serão avaliados levando em conta os seguintes critérios:
 
 ## Entregas 
 
-Os codigos devem ser enviados em formato zip, separados por pastas cada pasta com o nome do desafio correspondente. Email: pedro.lecchi@shipp.delivery, assunto DESAFIO SHIPP.
+Os códigos devem ser enviados em formato zip, separados por pastas. Cada pasta deve conter o nome do desafio correspondente. Email: pedro.lecchi@shipp.delivery, assunto DESAFIO SHIPP.
 
