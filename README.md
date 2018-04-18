@@ -28,11 +28,14 @@ Exemplo:
   - Verificar se existem celulares duplicados na lista de cadastro.
   - Verificar se existem emails duplicados na lista de cadastro.
   - Número do Cartão (Verificar se o número do cartão é válido, o sistema só aceita VISA, MASTER, ELO, AMEX). 
-     |Cartão|Prefixo|Tamanho|cvc
+
+     |Cartão|Prefixo|Tamanho|cvc|
+     |---| ---| ---| ---|
      |MASTERCARD|51-55|16|3|
      |VISA|4||13 ou 16|3|
      |AMEX|34 ou 37|15|4|
      |ELO|636368 ou 636369 ou 438935 ou 504175 ou 451416 ou 636297 ou 5067 ou 4576 ou 4011 ou 506699|16|3|
+     
   - Validar o prazo de validade dos cartões.
     
 A entrada do sistema é uma lista "clientes.csv" e "cartoes.txt" com os campos separados por ponto e virgula.
