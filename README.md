@@ -1,6 +1,6 @@
 # Teste para para estagio na Shipp
 
-A avaliação e composta por dois testes simples, esses serão utilizados para avaliar a capacidade da pessoa de entender e resolver problemas. Os desafios descritos abaixo devem ser feitos em PYTHON exceto o desafio da PISCINA que sera feito em javascript, css e html.
+A avaliação e composta por dois testes simples, esses serão utilizados para avaliar a capacidade da pessoa de entender e resolver problemas. Os desafios "Indice remissivo" e "Validação de dados cadastrais" devem ser feitos em PYTHON e o desafio da "Piscina de Coisas Comportamentais" deve ser feito em javascript, css e html.
 
 # Indice remissivo
 
@@ -18,7 +18,7 @@ Exemplo:
 | generico | 1|
 | ... | ...|
 
-# Validação de dados cadastrais de cliente
+# Validação de dados cadastrais
 
 1. Dado uma lista de clientes o sistema deve validar se os dados do cliente são validos.
 2. Os dados que devem ser verificados são :
