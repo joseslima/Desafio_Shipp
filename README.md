@@ -21,10 +21,16 @@ Exemplo:
 # Validação de dados cadastrais
 
 1. Dado uma lista de clientes o sistema deve validar se os dados do cliente são validos.
+
 2. Os dados que devem ser verificados são :
 
-  - CPF (Verificar se o CPF do usuário e válido, implementar um validador de cpf).
-  - Número do Cartão (Verificar se o número do cartão é válido, o sistema só aceita VISA, MASTER e ELO).
+  - CPF (Verificar se o CPF do usuário e válido, implementar um validador de cpf). Regras de validação de cpf (http://www.macoratti.net/alg_cpf.htm)
+  - Número do Cartão (Verificar se o número do cartão é válido, o sistema só aceita VISA, MASTER, ELO, AMEX). 
+     |Cartão|Prefixo|Tamanho|cvc
+     |MASTERCARD|51-55|16|3|
+     |VISA|4||13 ou 16|3|
+     |AMEX|34 ou 37||15|4|
+     |ELO|636368 ou 636369 ou 438935 ou 504175 ou 451416 ou 636297 ou 5067 ou 4576 ou 4011 ou 506699|16|3|
   - Verificar se existem celulares duplicados na lista de cadastro.
   - Verificar se existem emails duplicados na lista de cadastro.
   
