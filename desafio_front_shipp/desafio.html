@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<link rel="stylesheet" href="desafio.css" type="text/css">
+   	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <title>Desafio</title>
+   
+   	<div id="challenge">
+	   	<h3>Piscina de Coisas Comportamentais</h3>
+        
+	   	<p>
+            Na piscina abaixo, deverão ser criados nós iguais ao template <code>.thing</code> já existente abaixo sempre que o botão "Adicionar" for clicado.
+            Essa nova coisa deve vir com uma cor de fundo aleatória, ao invés do cinza padrão do template.
+            <br><br>
+            
+            O botão remover todos limpa a piscina.
+            <br><br>
+	   	
+            Quando um nó for adicionado, o <code>&lt;body&gt;</code> deve informar na <code>&lt;div id="info"&gt;</code> a mensagem:
+            "A piscina contém X coisas.", onde X é o número de nós que a psicina tem.
+            <br><br>
+            
+            Caso os nós sejam removidos, o <code>&lt;body&gt;</code> não deve atualizar a info.
+	   	</p>
+        
+	   	<p>
+	   		As coisas da piscina tem um botão "color" que ao ser clicado deve escolher uma cor aleatória para o elemento.<br>
+	   		E o link remover apaga a coisa específica da piscina.
+	   	</p>
+        
+	   	<p>
+	   		Tudo isso deve ser implementado com apenas <strong>3</strong> "Listeners", sem o auxílio de qualquer framework externo.
+            <br><br>
+            
+            Esse html não pode ser editado, apenas programaticamente.
+	   	</p>
+   	</div>
+    
+	<h1>Desafio Frontend</h1>
+    
+	<div id="info">&nbsp;</div>
+    
+	<div id="content">
+		<div id="control">
+			<button class="action-add">Adicionar</button><button class="action-remove">Remover todos</button>
+		</div>
+        
+		<div id="pool">
+			<div class="thing"><button class="action-change-color">color</button> <a href="#" class="action-remove">remover</a></div>		
+		</div>
+	</div>
+
+<script src="simple-event-api.js" type="text/javascript"></script>
+<script src="desafio.js" type="text/javascript"></script>
