@@ -48,5 +48,5 @@ Os programas serão avaliados levando em conta os seguintes critérios:
 
 ## Entregas 
 
-Os codigos devem ser enviados para o email: pedro.lecchi@shipp.delivery, com o assunto DESAFIO SHIPP.
+Os codigos devem ser enviados em formato zip, separados por pastas cada pasta com o nome do desafio correspondente. Email: pedro.lecchi@shipp.delivery, assunto DESAFIO SHIPP.
 
