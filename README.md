@@ -27,7 +27,9 @@ Exemplo:
   (RN1) Verificar se o CPF dos clientes são válidos, caso não seja excluir o cliente da lista de cliente ativos. (Regra de validação de CPF http://www.macoratti.net/alg_cpf.htm)
   
   (RN2)  Verificar se existem celulares duplicados na lista de cadastro, caso exista excluir da lista de clientes ativos.
+  
   (RN3)  Verificar se existem emails duplicados na lista de cadastro, caso exista excluir da lista de clientes ativos.
+  
   (RN4)  Verificar se o número do cartão é válido, o sistema só aceita VISA, MASTER, ELO, AMEX. Abaixo segue as restrições. Caso exista algum cartão invalido excluir da lista de cartões ativos.
 
      |Cartão|Prefixo|Tamanho|cvc|
