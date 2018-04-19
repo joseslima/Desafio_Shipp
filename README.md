@@ -24,11 +24,11 @@ Exemplo:
 
 2. Os dados que devem ser verificados são :
 
-  RN1- Verificar se o CPF dos clientes são válidos, caso não seja excluir o cliente da lista de cliente ativos. (Regra de validação de CPF http://www.macoratti.net/alg_cpf.htm)
+  (RN1) Verificar se o CPF dos clientes são válidos, caso não seja excluir o cliente da lista de cliente ativos. (Regra de validação de CPF http://www.macoratti.net/alg_cpf.htm)
   
-  RN2 - Verificar se existem celulares duplicados na lista de cadastro, caso exista excluir da lista de clientes ativos.
-  RN3 - Verificar se existem emails duplicados na lista de cadastro, caso exista excluir da lista de clientes ativos.
-  RN4 - Verificar se o número do cartão é válido, o sistema só aceita VISA, MASTER, ELO, AMEX. Abaixo segue as restrições. Caso exista algum cartão invalido excluir da lista de cartões ativos.
+  (RN2)  Verificar se existem celulares duplicados na lista de cadastro, caso exista excluir da lista de clientes ativos.
+  (RN3)  Verificar se existem emails duplicados na lista de cadastro, caso exista excluir da lista de clientes ativos.
+  (RN4)  Verificar se o número do cartão é válido, o sistema só aceita VISA, MASTER, ELO, AMEX. Abaixo segue as restrições. Caso exista algum cartão invalido excluir da lista de cartões ativos.
 
      |Cartão|Prefixo|Tamanho|cvc|
      |---| ---| ---| ---|
@@ -38,7 +38,7 @@ Exemplo:
      |ELO|636368 ou 636369 ou 438935 ou 504175 ou 451416 ou 636297 ou 5067 ou 4576 ou 4011 ou 506699|16|3|
      
      
-  RN5 Validar o prazo de validade dos cartões, caso exista algum cartã fora da validade excluir da lista de cartões ativos
+  (RN5) Validar o prazo de validade dos cartões, caso exista algum cartã fora da validade excluir da lista de cartões ativos
 
 A entrada do sistema é uma lista "clientes.csv" e "cartoes.txt" com os campos separados por ponto e virgula.
 A saida devera ser: 
