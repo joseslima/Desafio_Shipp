@@ -32,12 +32,12 @@ Exemplo:
   
   (RN4)  Verificar se o número do cartão é válido, o sistema só aceita VISA, MASTER, ELO, AMEX. Abaixo segue as restrições. Caso exista algum cartão invalido excluir da lista de cartões ativos.
 
-     |Cartão|Prefixo|Tamanho|cvc|
-     |---| ---| ---| ---|
-     |MASTERCARD|51-55|16|3|
-     |VISA|4||13 ou 16|3|
-     |AMEX|34 ou 37|15|4|
-     |ELO|636368 ou 636369 ou 438935 ou 504175 ou 451416 ou 636297 ou 5067 ou 4576 ou 4011 ou 506699|16|3|
+|Cartão|Prefixo|Tamanho|cvc|
+|---| ---| ---| ---|
+|MASTERCARD|51-55|16|3|
+|VISA|4||13 ou 16|3|
+|AMEX|34 ou 37|15|4|
+|ELO|636368 ou 636369 ou 438935 ou 504175 ou 451416 ou 636297 ou 5067 ou 4576 ou 4011 ou 506699|16|3|
      
      
   (RN5) Validar o prazo de validade dos cartões, caso exista algum cartã fora da validade excluir da lista de cartões ativos
