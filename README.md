@@ -24,10 +24,11 @@ Exemplo:
 
 2. Os dados que devem ser verificados são :
 
-  - CPF (Verificar se o CPF do usuário e válido, implementar um validador de cpf). Regras de validação de cpf (http://www.macoratti.net/alg_cpf.htm)
-  - Verificar se existem celulares duplicados na lista de cadastro.
-  - Verificar se existem emails duplicados na lista de cadastro.
-  - Número do Cartão (Verificar se o número do cartão é válido, o sistema só aceita VISA, MASTER, ELO, AMEX). 
+  RN1- Verificar se o CPF dos clientes são válidos, caso não seja excluir o cliente da lista de cliente ativos. (Regra de validação de CPF http://www.macoratti.net/alg_cpf.htm)
+  
+  RN2 - Verificar se existem celulares duplicados na lista de cadastro, caso exista excluir da lista de clientes ativos.
+  RN3 - Verificar se existem emails duplicados na lista de cadastro, caso exista excluir da lista de clientes ativos.
+  RN4 - Verificar se o número do cartão é válido, o sistema só aceita VISA, MASTER, ELO, AMEX. Abaixo segue as restrições. Caso exista algum cartão invalido excluir da lista de cartões ativos.
 
      |Cartão|Prefixo|Tamanho|cvc|
      |---| ---| ---| ---|
@@ -36,12 +37,15 @@ Exemplo:
      |AMEX|34 ou 37|15|4|
      |ELO|636368 ou 636369 ou 438935 ou 504175 ou 451416 ou 636297 ou 5067 ou 4576 ou 4011 ou 506699|16|3|
      
-  - Validar o prazo de validade dos cartões.
-    
+     
+  RN5 Validar o prazo de validade dos cartões, caso exista algum cartã fora da validade excluir da lista de cartões ativos
+
 A entrada do sistema é uma lista "clientes.csv" e "cartoes.txt" com os campos separados por ponto e virgula.
 A saida devera ser: 
- 1- Lista de clientes validos. Deve se levar em conta a primeira ocorrencia do cliente caso ele esteja duplicado.
- 2- Lista de cartões validos. Os cartões que pertencem a clientes que foram excluidos por duplicidade devem ser atualizados com o novo id de cliente caso exista caso contrario deverar ser excluido.
+ 1- Lista de clientes ativos.
+ 2- Lista de cartões ativos. 
+ 3- Lista de clientes inativos.
+ 4- Lista de cartões inativos.
 
 ## Piscina de Coisas Comportamentais
 
