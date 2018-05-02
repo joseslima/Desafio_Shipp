@@ -1,9 +1,17 @@
 (function (window, undefined) {
     "use strict";
     //resolucao aqui
-    const botao = document.getElementsByClassName('action-add');
 
     let totalNodes= 0;
+
+
+
+    const controler = () => {
+      const botao = document.getElementsByClassName('action-add');
+      SEA.addEventListener(botao[0],"click", () => { createNode() })
+
+    }
+
 
     const randomColor = () => {
         const hexadecimais = '0123456789ABCDEF';
@@ -27,9 +35,8 @@
       console.log(totalNodes  )
     }
 
+    controler();
 
-    SEA.addEventListener(botao[0],"click", () => { createNode() })
 
 
 }(window));
-
